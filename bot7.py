@@ -15,7 +15,10 @@ dp=Dispatcher()
 
 @dp.message(Command("start"))
 async def salem(sms: types.Message):
-    await sms.answer(text='задавай вопрос')
+    await sms.answer(text='вопрос')
+
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 
 
 
